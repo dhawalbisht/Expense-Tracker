@@ -5,7 +5,7 @@ A simple web application built with ReactJS and Vite for tracking expenses.
 
 ## Installation
 
-1. Clone the repository: https://github.com/dhawalbisht/MasterWise.git
+1. Clone the repository: https://github.com/dhawalbisht/Expense-Tracker.git
 
 2. Navigate to the project directory:
 
