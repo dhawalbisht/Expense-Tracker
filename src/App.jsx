@@ -3,22 +3,23 @@ import './App.css'
 import Header from './components/Header'
 import Balance from './components/Balance'
 import IncomeExpenses from './components/IncomeExpenses'
-import TransactionlList from './components/TransactionList'
+import TransactionList from './components/TransactionList'
 import AddNewTransaction from './components/AddNewTransaction'
+import { GlobalProvider } from './context/GlobalState'
 
 
 function App() {
 
   return (
-    <div>
+    <GlobalProvider>
       <Header />
       <div className='container'>
         <Balance />
         <IncomeExpenses />
-        <TransactionlList />
+        <TransactionList />
         <AddNewTransaction />
       </div>
-    </div >
+    </GlobalProvider >
   )
 }
 
