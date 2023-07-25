@@ -1,9 +1,29 @@
-# React + Vite
+# Expense Tracker Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web application built with ReactJS and Vite for tracking expenses.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# Expense-Tracker
+## Installation
+
+1. Clone the repository: https://github.com/dhawalbisht/MasterWise.git
+
+2. Navigate to the project directory:
+
+3. Install dependencies:
+
+4. Start the development server:
+
+
+## Usage
+
+1. Add a new transaction by entering a text description and the amount.
+2. Transactions are categorized as expenses (negative amounts) or income (positive amounts).
+3. The total balance is displayed on the top.
+4. You can delete any transaction by clicking the "x" button next to it.
+
+
+## Technologies Used
+
+- ReactJS
+- Vite (A build tool for modern web development)
+- CSS (for styling)
